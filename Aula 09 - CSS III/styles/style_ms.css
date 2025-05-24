@@ -1,0 +1,26 @@
+body{
+    font-size: 12px;
+}
+
+/* grau maior de compatibilidade para os navegadores antigos: descartar ele */
+/* and ou or */
+
+@media only screen and (min-width:601px ) and (max-width:1024px){
+    body {
+        font-size: 22px;
+        background-color: aquamarine;
+    }
+}
+
+@media only screen and (max-width:600px){
+    body {
+        font-size: 26px;
+        background-color: blueviolet
+    }
+}
+
+/* paginas de impressao */
+
+@media print{
+
+}
