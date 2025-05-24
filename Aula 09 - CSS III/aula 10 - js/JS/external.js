@@ -1,7 +1,8 @@
 function teste(){
-    alert("função teste ativada!")
+    alert("haha!")
 }
 
+ confirm("deseja continuar?");
 
 let idade = 25; 
 console.log(idade)
@@ -29,3 +30,13 @@ console.log(vazio)
 
 let indefinido
 console.log(indefinido) 
+
+function entrada(){
+let nome = prompt("digite seu nome")
+alert(nome)
+}
+
+function confirmar(){
+   let resultado = confirm("deseja confirmar?")
+alert(resultado)
+}
